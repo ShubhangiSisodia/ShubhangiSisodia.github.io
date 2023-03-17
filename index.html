@@ -23,22 +23,22 @@
                 <ul class="nav_list grid">
                     <li class="nav_item">
                         <a href="#home" class="nav_link active-link">
-                            <i class="uil uil-estate nav_icon"></i> Home
+                            <i class="uil uil-estate nav_icon" class="nav-link home"></i> Home
                         </a>
                     </li>
                     <li class="nav_item">
                         <a href="#about" class="nav_link">
-                            <i class="uil uil-user nav_icon"></i> About
+                            <i class="uil uil-user nav_icon" class="nav-link about"></i> About
                         </a>
                     </li>
                     <li class="nav_item">
                         <a href="#skills" class="nav_link">
-                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                            <i class="uil uil-file-alt nav_icon" class="nav-link skills"></i> Skills
                         </a>
                     </li>
                     <li class="nav_item">
                         <a href="#portfolio" class="nav_link">
-                            <i class="uil uil-briefcase-alt nav_icon"></i> Projects
+                            <i class="uil uil-briefcase-alt nav_icon" class="nav-link projects"></i> Projects
                         </a>
                     </li>
                     <li class="nav_item">
@@ -48,12 +48,12 @@
                     </li>
                     <li class="nav_item">
                         <a href="#contact" class="nav_link">
-                            <i class="uil uil-message nav_icon"></i> Contact Me
+                            <i class="uil uil-message nav_icon" class="nav-link contact"></i> Contact Me
                         </a>
                     </li>
                     <li class="nav_item">
                         <a href="/images/Shubhangi_Sisodia_Resume .pdf" download class="nav_link">
-                            <i class="uil uil-download-alt nav_icon"></i> Resume
+                            <i class="uil uil-download-alt nav_icon" class="nav-link resume"  id="resume-button-1"></i> Resume
                         </a>
                     </li>
                 </ul>
@@ -79,10 +79,10 @@
                 <div class="home_content grid">
                     <div class="home_social">
                         <a href="https://www.linkedin.com/in/shubhangi-sisodia/" target="_blank"
-                            class="home_social-icon">
+                            class="home_social-icon" id="contact-linkedin">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://github.com/ShubhangiSisodia" target="_blank" class="home_social-icon">
+                        <a href="https://github.com/ShubhangiSisodia" target="_blank" class="home_social-icon" id="contact-github">
                             <i class="uil uil-github-alt"></i>
                         </a>
                         <a href="https://twitter.com/shubhangi_99" target="_blank" class="home_social-icon">
@@ -106,13 +106,13 @@
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                <image x="20" class="home_blob-img" href="/images/15803872-89E5-442F-B9A3-10BB201F8590 2.jpg" />
+                                <image x="20" class="home_blob-img" class="home-img" href="/images/15803872-89E5-442F-B9A3-10BB201F8590 2.jpg" />
                             </g>
                         </svg>
                     </div>
 
                     <div class="home_data">
-                        <h1 class="home_title">Hi👋, I'm<br>Shubhangi Sisodia</h1>
+                        <h1 class="home_title"  id="user-detail-name">Hi👋, I'm<br>Shubhangi Sisodia</h1>
                         <h3 class="home_subtitle"><span class="auto-type"></span></h3>
                         <p class="home_description">"Passionate full stack web developer with expertise in creating dynamic and responsive web applications."</p>
                         <a href="#contact" class="button button-flex">
@@ -138,7 +138,7 @@
             <div class="about_container container grid">
                 <!-- <img src="/images/15803872-89E5-442F-B9A3-10BB201F8590 2.jpg" alt="" class="about_img"> -->
                 <div class="about_data">
-                    <p class="about_description">As a former biology student turned coding enthusiast, 
+                    <p class="about_description"  id="user-detail-intro">As a former biology student turned coding enthusiast, 
                         I have a passion for exploring both the natural world and the digital realm.
                          My journey into coding began as a curiosity, but quickly turned into a full-blown pursuit as I discovered the power and potential of computer science.
                           Now, I am honing my skills and building a portfolio of work that showcases my creativity, technical abilities, and problem-solving mindset.
@@ -161,7 +161,7 @@
                     </div>
 
                     <div class="about_buttons">
-                        <a href="/images/Shubhangi_Sisodia_Resume .pdf" download="" class="button button-flex">
+                        <a href="/images/Shubhangi_Sisodia_Resume .pdf" download="" class="button button-flex"   id="resume-link-2">
                             My Resume <i class="uil uil-download-alt button_icon"></i></a>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
             <div class="skills_container container grid">
                 <div>
                     <!-- ========== Skills 1 ========== -->
-                    <div class="skills_content skills_open">
+                    <div class="skills_content skills_open" class="skills-card">
                         <div class="skills_header">
                             <i class="uil uil-arrow skills_icon"></i>
                             <div>
@@ -446,13 +446,13 @@
         </section>
 
         <!-- ========== Projects ========== -->
-        <section class="portfolio section" id="portfolio">
+        <section class="portfolio section" id="projects">
             <h2 class="section_title">Projects</h2>
 
             <div class="portfolio_container container swiper-container">
                 <div class="swiper-wrapper">
                     <!-- ========== Project 1 ========== -->
-                    <div class="portfolio_content grid swiper-slide project-card">
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
                         <img src="/images/myntra.png" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
@@ -474,7 +474,7 @@
                     </div>
 
                     <!-- ========== Project 2 ========== -->
-                    <div class="portfolio_content grid swiper-slide project-card">
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
                         <img src="/images/shopclues.png" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
@@ -497,7 +497,7 @@
                     </div>
 
                     <!-- ========== Project 3 ========== -->
-                    <div class="portfolio_content grid swiper-slide project-card">
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
                         <img src="/images/zara.png" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
@@ -538,9 +538,9 @@
             <h2 class="section_title">Statistics</h2>
             <span class="section_subtitle">My Github Statistics</span>
             <div class="statistics_container container grid">
-                <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=default&locale=en&hide_border=false&username=ShubhangiSisodia" height="150" alt="stats graph"  />
-                <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=default&hide_border=false&username=ShubhangiSisodia" height="150" alt="languages graph"  />  
-              <img  src="https://github-readme-streak-stats.herokuapp.com/?user=shubhangisisodia&" alt="shubhangisisodia" /> 
+                <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=default&locale=en&hide_border=false&username=ShubhangiSisodia" height="150" alt="stats graph"  id="github-stats-card"  />
+                <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=default&hide_border=false&username=ShubhangiSisodia" height="150" alt="languages graph"  id="github-top-langs" />  
+              <img  src="https://github-readme-streak-stats.herokuapp.com/?user=shubhangisisodia&" alt="shubhangisisodia"  id="github-streak-stats"/> 
             </div>
         </section>
 
@@ -557,7 +557,7 @@
 
                         <div>
                             <h3 class="contact_title">Call Me</h3>
-                            <span class="contact_subtitle">+91 9871637278</span>
+                            <span class="contact_subtitle"  id="contact-phone">+91 9871637278</span>
                         </div>
                     </div>
 
@@ -566,7 +566,7 @@
 
                         <div>
                             <h3 class="contact_title">Email</h3>
-                            <span class="contact_subtitle">sisodiasubhangi@gmail.com</span>
+                            <span class="contact_subtitle" id="contact-email">sisodiasubhangi@gmail.com</span>
                         </div>
                     </div>
 
