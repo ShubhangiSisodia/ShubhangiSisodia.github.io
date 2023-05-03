@@ -583,12 +583,12 @@ img {
 
 .skills_bar,
 .skills_percentage {
-    height: 4px;
+    height: 8px;
     border-radius: 0.25rem;
 }
 
 .skills_bar {
-    background-color: var(--first-color-lighter);
+    background-color: var(--first-color);
 }
 
 .skills_percentage {
@@ -1131,12 +1131,12 @@ img {
     }
 
     .about_data {
-        flex-basis: 60%;
+        flex-basis: 70%;
     }
 
     .about_description {
-        width: 90%;
-        text-align: center;
+        width: 100%;
+        text-align: justify;
     }
 
     .skills_container {
