@@ -284,6 +284,7 @@ img {
     grid-template-columns: 0.5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
+    display: flex;
 }
 
 .home_social {
@@ -304,12 +305,12 @@ img {
 }
 
 .home_blob {
-    width: 200px;
+    width: 10px;
     /* fill: var(--first-color); */
 }
 
 .home_blob-img {
-    width: 80%;
+    width: 100%;
     margin:auto
 }
 
@@ -331,6 +332,7 @@ img {
 
 .home_description {
     margin-bottom: var(--mb-2);
+   
 }
 
 .home_scroll {
@@ -398,6 +400,7 @@ img {
     margin: auto;
     align-self: center;
 } */
+
 .about_data{
     /* border:  1px solid red; */
     width: 100%;
