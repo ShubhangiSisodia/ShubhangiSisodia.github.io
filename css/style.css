@@ -306,7 +306,7 @@ img {
 
 .home_blob {
     width: 10px;
-    /* fill: var(--first-color); */
+    fill: var(--first-color);
 }
 
 .home_blob-img {
@@ -419,7 +419,7 @@ img {
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
     /* margin-left: 380px; */
-    /* gap: 50px; */
+    gap: 50px;
 }
 
 .about_info>div {
