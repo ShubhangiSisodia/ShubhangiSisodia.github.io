@@ -698,7 +698,8 @@ img {
 }
 
 .portfolio_img {
-    height: 200px;
+    /* height: 200px; */
+    height: 20rem !important;
     border-radius: 0.5rem;
     justify-self: center;
 }
