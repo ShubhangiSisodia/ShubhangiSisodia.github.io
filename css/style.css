@@ -395,6 +395,7 @@ img {
 }
 
 /* ====== ABOUT ====== */
+/* ====== ABOUT ====== */
 .about_img {
     width: 300px;
     border-radius: 1rem;
@@ -403,9 +404,33 @@ img {
     align-self: center;
 }
 
-.about_description {
-    text-align: justify;
+.about_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
     margin-bottom: var(--mb-2-5);
+}
+
+.about_box {
+    flex: 1 1 calc(50% - 2rem);
+    padding: var(--mb-1-5);
+    border: 2px solid var(--first-color);
+    border-radius: 1rem;
+    transition: 0.5s;
+    text-align: center;
+    background-color: var(--container-color);
+}
+
+.about_box:hover {
+    background-color: var(--first-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.about_box-content {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
 }
 
 .about_info {
@@ -445,6 +470,13 @@ img {
 .about_buttons {
     display: flex;
     justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about_box {
+        flex: 1 1 100%;
+    }
 }
 
 
@@ -520,6 +552,7 @@ img {
 .qualification_button.qualification_active {
     color: var(--first-color);
 }
+
 
 /* ====== SKILLS ====== */
 .skills_content {
