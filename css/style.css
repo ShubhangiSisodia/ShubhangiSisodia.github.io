@@ -395,7 +395,7 @@ img {
 }
 
 /* ====== ABOUT ====== */
-/* ====== ABOUT ====== */
+
 .about_img {
     width: 300px;
     border-radius: 1rem;
@@ -470,13 +470,6 @@ img {
 .about_buttons {
     display: flex;
     justify-content: center;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .about_box {
-        flex: 1 1 100%;
-    }
 }
 
 
@@ -925,6 +918,9 @@ img {
     .container {
         margin-right: var(--mb-1);
         margin-left: var(--mb-1);
+    }
+    .about_box {
+        flex: 1 1 100%;
     }
 
     .nav_menu {
