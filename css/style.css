@@ -28,7 +28,7 @@
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px */
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
+    --h2-font-size: 1.1rem;
     --h3-font-size: 1.125rem;
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
@@ -920,8 +920,17 @@ img {
         margin-right: var(--mb-1);
         margin-left: var(--mb-1);
     }
-    .about_box {
-        flex: 1 1 100%;
+    .portfolio_img {
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        border-radius: 0.5rem;
+        justify-self: center;
+    }
+    
+    .about_boxes {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 1rem; 
     }
 
     .nav_menu {
@@ -960,6 +969,13 @@ img {
         margin-left: var(--mb-2);
     }
 
+
+    .about_boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem; 
+    }
+
     .home_social-icon {
         font-size: 1.75rem;
     }
@@ -996,7 +1012,6 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-
     .body {
         margin: 0;
     }
@@ -1202,4 +1217,5 @@ img {
     .contact_inputs {
         grid-template-columns: repeat(2, 1fr);
     }
+    
 }
